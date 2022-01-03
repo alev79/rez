@@ -253,7 +253,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   all:
     type: http
-    url: "https://sspool.herokuapp.com/clash/proxies&speed=100"
+    url: "https://sspool.herokuapp.com/clash/proxies?speed=100"
     path: sspool.herokuapp.com/provider.yaml
     health-check:
       enable: true
