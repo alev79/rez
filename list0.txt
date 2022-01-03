@@ -87,7 +87,7 @@ proxy-providers:
   cn:
     type: http
     url: "https://free.kingfu.cf/clash/proxies?c=HK,TW&speed=20"
-    path: sspool.herokuapp.com/provider-cn.yaml
+    path: free.kingfu.cf//provider-cn.yaml
     health-check:
       enable: true
       interval: 600
@@ -95,7 +95,7 @@ proxy-providers:
   jp:
     type: http
     url: "https://free.kingfu.cf/clash/proxies?c=JP&speed=20"
-    path: sspool.herokuapp.com/provider-jp.yaml
+    path: free.kingfu.cf//provider-jp.yaml
     health-check:
       enable: true
       interval: 600
@@ -103,7 +103,7 @@ proxy-providers:
   sg:
     type: http
     url: "https://free.kingfu.cf/clash/proxies?c=SG&speed=20"
-    path: sspool.herokuapp.com/provider-sg.yaml
+    path: free.kingfu.cf//provider-sg.yaml
     health-check:
       enable: true
       interval: 600
@@ -111,7 +111,7 @@ proxy-providers:
   ru:
     type: http
     url: "https://free.kingfu.cf/clash/proxies?c=RU&speed=20"
-    path: sspool.herokuapp.com/provider-ru.yaml
+    path: free.kingfu.cf//provider-ru.yaml
     health-check:
       enable: true
       interval: 600
@@ -119,7 +119,7 @@ proxy-providers:
   all:
     type: http
     url: "https://free.kingfu.cf/clash/proxies?c=RU,HK,TW,JP,SG&speed=20"
-    path: sspool.herokuapp.com/provider.yaml
+    path: free.kingfu.cf//provider.yaml
     health-check:
       enable: true
       interval: 600
